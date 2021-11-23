@@ -1,4 +1,4 @@
-export default (state, action) => {
+const appreducer=(state, action) => {
     switch (action.type) {
       case 'REMOVE_USER':
         return {
@@ -30,3 +30,4 @@ export default (state, action) => {
         return state;
     }
   }
+  export default appreducer;
